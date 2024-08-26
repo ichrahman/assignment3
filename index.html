@@ -117,7 +117,7 @@
                 <div>
                     <img src="./assets/Vector.png" alt="">
                 </div>
-                <div class="flex flex-col lg:flex-row justify-center items-center">
+                <div class="flex flex-col lg:flex-row justify-center items-center  gap-y-8 lg:gap-x-8">
                     <div>
                         <button class="btn !bg-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -166,7 +166,7 @@
 
                     </div>
                     <div>
-                        <img class="sm:mt-6" src="./assets/Rectangle.png" alt="">
+                        <img src="./assets/Rectangle.png" alt="">
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
     </main>
 
     <!-- latest portfolio section -->
-    <!-- <section class="mt-28">
+    <section class="mt-28 container mx-auto">
         <div class="flex justify-center">
             <button class="btn !bg-white">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -248,7 +248,68 @@
             charm and modern sophistication, featuring weathered wood,
             sleek metal accents.</p>
 
-    </section> -->
+        <div class="lg:w-4/5 mx-auto">
+            <div class="mt-8 flex flex-col lg:flex-row items-center gap-y-4 lg:gap-x-8">
+                <div
+                    class="flex flex-col grow sm:grow-0 lg:flex-row items-center gap-y-4 lg:gap-x-8 rounded-2xl border-2 border-[#E9E9E9] p-6">
+                    <div>
+                        <img src="./assets/img1.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Commercial</h2>
+                        <p class="mt-4 mb-4">The barn house captivates with its blend of rustic charm and modern. The
+                            barn
+                            house captivates
+                            with
+                            its blend of rustic charm and modern .</p>
+                        <button class="btn !bg-[#ABEF5F]">
+                            View Details
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="rounded-2xl border-2 border-[#E9E9E9] p-6">
+                    <img src="./assets/img2.png" alt="">
+                </div>
+            </div>
+
+            <div class="mt-6 flex flex-col items-center justify-center lg:flex-row gap-y-6 lg:gap-x-6">
+                <div class="rounded-2xl grow-0 border-2 border-[#E9E9E9] p-6">
+                    <img src="./assets/img3.png" alt="">
+                </div>
+                <div
+                    class="flex flex-col grow sm:grow-0 lg:flex-row rounded-2xl border-2 border-[#E9E9E9] gap-y-4 lg:gap-x-8 p-6">
+                    <div>
+                        <img src="./assets/img4.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Commercial</h2>
+                        <p class="mt-4 mb-4">The barn house captivates with its blend of rustic charm and modern. The
+                            barn
+                            house captivates
+                            with
+                            its blend of rustic charm and modern .</p>
+                        <button class="btn !bg-[#ABEF5F]">
+                            View Details
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="rounded-2xl grow-0 border-2 border-[#E9E9E9] p-6">
+                    <img src="./assets/img5.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- form -->
     <section class="container mx-auto mt-24">
@@ -269,11 +330,11 @@
             charm and modern sophistication, featuring weathered wood,
             sleek metal accents.</p>
         <form class="mt-8" action="#">
-            <div class="flex flex-col lg:flex-row justify-center items-center lg:gap-x-8 sm:gap-y-5">
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-y-8 lg:gap-x-8">
                 <input type="text" placeholder="First Name*" class="input input-bordered w-full max-w-xs" />
                 <input type="text" placeholder="Last Name*" class="input input-bordered w-full max-w-xs" />
             </div>
-            <div class="flex flex-col lg:flex-row justify-center items-center mt-8 lg:gap-x-8 sm:gap-y-5">
+            <div class="flex flex-col lg:flex-row justify-center items-center mt-8 gap-y-8 lg:gap-x-8">
                 <input type="text" placeholder="Phone Number*" class="input input-bordered w-full max-w-xs" />
                 <input type="text" placeholder="Email Address*" class="input input-bordered w-full max-w-xs" />
             </div>
@@ -282,7 +343,8 @@
                     placeholder="Write your message here"></textarea>
             </div>
             <div class="flex justify-center mt-8">
-                <button class="btn no-animation w-full max-w-2xl">Send Mail</button>
+                <button class="btn no-animation w-full max-w-2xl !font-extrabold !text-xl !bg-[#ABEF5F]">Send
+                    Mail</button>
             </div>
         </form>
     </section>
